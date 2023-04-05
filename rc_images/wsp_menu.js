@@ -2,7 +2,8 @@
 // (c) by Nikolaus Gebhardt / Ambiera e.U.
 // parameters:
 // elementid: Element id of the root menu item
-function wsp_menu(elementid, menuidsuffix, panepadding)
+// animations: combination of 'fadeMenus', 'moveHeight'
+function wsp_menu(elementid, menuidsuffix, panepadding, animations)
 {
 	this.menuElementSubMenuParent = document.getElementById(elementid);
 	this.menuElementEntryHolder = null;
@@ -11,7 +12,20 @@ function wsp_menu(elementid, menuidsuffix, panepadding)
 	{
 		var divs = this.menuElementSubMenuParent.getElementsByTagName('div');
 		if (divs.length)
+		{
 			this.menuElementEntryHolder = divs[0];		
+			
+			if (this.menuElementEntryHolder && this.menuElementEntryHolder.id.indexOf('_menualignmentwrapper') > -1)
+			{
+				// menu has an alignment wrapper, so the entry holder is below it
+				divs = this.menuElementEntryHolder.getElementsByTagName('div');
+				if (divs.length)
+				{
+					this.menuElementSubMenuParent = this.menuElementEntryHolder;
+					this.menuElementEntryHolder = divs[0];					
+				}
+			}				
+		}	
 	}
 	
 	this.rootMenuElements = new Array();
@@ -23,6 +37,8 @@ function wsp_menu(elementid, menuidsuffix, panepadding)
 	this.useclickmode = true; // support for clicking on menu items, for touch screen devices
 	WspMenusLastTimeClicked = 0;  // global if using more than one menu
 	this.LastOpenedSubMenu = null;
+	this.UseAnimation = animations != null;
+	this.EnabledAnimations = animations;
 	
 	try {
 		if (wsp_allmenus == null)
@@ -80,6 +96,12 @@ function wsp_menu(elementid, menuidsuffix, panepadding)
 		menupane.style.zIndex = 10;
 		menupane.id = this.menuidsuffix + "_pane";	
 		menupane.creationParentMenuElement = htmlelement;
+		
+		menupane.style.visibility = 'hidden';	
+		menupane.style.display = 'block';	
+		
+		if (this.UseAnimation && this.isUsingFadeMenuPaneAnimations())
+			menupane.style.transition = "opacity 0.5s ease-out";
 		
 		this.menuElementSubMenuParent.appendChild(menupane);	
 		
@@ -183,8 +205,10 @@ function wsp_menu(elementid, menuidsuffix, panepadding)
 		
 		maxWidth += panepadding*2;
 		menupane.style.width = maxWidth + "px";
-		menupane.style.display = 'none';
-				
+		menupane.aentries = aentries;
+		
+		this.setStylesForVisibilityOfMenuPane(menupane, false);
+						
 		return menupane;
 	}
 	
@@ -204,7 +228,8 @@ function wsp_menu(elementid, menuidsuffix, panepadding)
 	{
 		if (this.LastOpenedSubMenu != null)
 		{
-			this.LastOpenedSubMenu.style.display = 'none';
+			this.setStylesForVisibilityOfMenuPane(this.LastOpenedSubMenu, false);
+			
 			this.LastOpenedSubMenu = null;
 		}
 	}
@@ -212,7 +237,7 @@ function wsp_menu(elementid, menuidsuffix, panepadding)
 	this.showMenuPaneWithIndex = function(i)
 	{
 		if (this.currentlyVisibleMenuPane)
-			this.currentlyVisibleMenuPane.style.display = 'none';
+			this.setStylesForVisibilityOfMenuPane(this.currentlyVisibleMenuPane, false);
 				
 		var newpane = null;
 		if (i >= 0 && i < this.menuPanes.length)
@@ -222,7 +247,7 @@ function wsp_menu(elementid, menuidsuffix, panepadding)
 		
 		if (newpane)
 		{
-			newpane.style.display = 'block';
+			this.setStylesForVisibilityOfMenuPane(newpane, true);
 			
 			// also, update position
 			var htmlelement = newpane.creationParentMenuElement;
@@ -255,7 +280,8 @@ function wsp_menu(elementid, menuidsuffix, panepadding)
 	{
 		this.closeOpenSubMenu();
 		
-		submenu.style.display = 'block';
+		this.setStylesForVisibilityOfMenuPane(submenu, true)
+		
 		this.LastOpenedSubMenu = submenu;
 		
 		if ( this.useclickmode )
@@ -300,6 +326,46 @@ function wsp_menu(elementid, menuidsuffix, panepadding)
 		}
 	}
 	
+	this.setStylesForVisibilityOfMenuPane = function(menupane, show)
+	{
+		if (show)
+		{
+			menupane.style.visibility = 'visible';	
+
+			if (this.UseAnimation && this.isUsingFadeMenuPaneAnimations())
+				menupane.style.opacity = 1;		
+
+			if (this.UseAnimation && this.isUsingMoveHeightAnimations())
+				for (var j=0; j<menupane.aentries.length; ++j)
+				{
+					menupane.aentries[j].style.transition = "margin 0.5s ease";
+					menupane.aentries[j].style.marginTop = '0px';							
+				}
+		}
+		else
+		{
+			// hide
+			menupane.style.visibility = 'hidden';
+			
+			if (this.UseAnimation && this.isUsingFadeMenuPaneAnimations())
+				menupane.style.opacity = 0;		
+
+			if (this.UseAnimation && this.isUsingMoveHeightAnimations())
+				for (var j=0; j<menupane.aentries.length; ++j)
+					menupane.aentries[j].style.marginTop = (10 + j*-10) + 'px';	
+		}
+	}
+	
+	this.isUsingMoveHeightAnimations = function()
+	{
+		return this.EnabledAnimations && this.EnabledAnimations.indexOf('moveHeight') >= 0;
+	}
+	
+	this.isUsingFadeMenuPaneAnimations = function()
+	{
+		return this.EnabledAnimations && this.EnabledAnimations.indexOf('fadeMenus') >= 0;
+	}
+		
 	this.getElementAbsPosition = function(element) 
 	{
 		var top = 0;
