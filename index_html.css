@@ -58,27 +58,28 @@ body { background-color:#FFFFFF; padding:0;  margin: 0; }
 .textstyle9 { font-size:16pt; font-family:'PT Sans Narrow'; color:#FFFFFF;  white-space: nowrap; }
 #placeh_450824da { vertical-align: bottom; position:relative; display: inline-block; width:100%;  }
 #container_73cb5bf { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background-color:#0080C0;  }
-#container_3205b59a { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background-color:#242342; background-image: url(rc_images/restaurant_dark_glass.jpg); background-position:top left; background-size:cover;  }
+#container_3205b59a { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:700px; background-color:#242342; background-image: url(rc_images/restaurant_dark_glass.jpg); background-position:top left; background-size:cover;  }
 #container_3205b59a_padding { margin: 20px; display: block;  }
 .textstyle10 { font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
-#container_12e144f2 { vertical-align: top; position:relative; display: inline-block; width:45%; min-height:316px; min-width:300px; background:none; line-height: 1.5; }
-#container_12e144f2_padding { margin: 10px; display: block;  }
-.textstyle11 { font-size:14pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#FFFFFF;  }
-.textstyle12 { font-size:14pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#FFA925;  }
-.textstyle13 { font-size:14pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#807AF9;  }
-.textstyle14 { font-size:14pt; font-family:Arial, Helvetica, sans-serif; color:#FFFFFF;  }
-.textstyle15 { font-size:24pt; font-family:'PT Sans Narrow'; color:#FF8000; font-weight:bold;  }
-.textstyle16 { font-size:14pt; font-family:Arial, Helvetica, sans-serif; color:#FFFFFF; font-weight:bold;  }
-.textstyle17 { text-align:justify; }
-.textstyle18 { font-size:14pt; font-family:'PT Sans Narrow'; color:#FFFFFF;  }
-.textstyle19 { font-size:14pt; font-family:Arial, Helvetica, sans-serif; color:#FFFFFF; line-height: 1.5;  }
+#text_7a349e57 { vertical-align: bottom; position:relative; display: inline-block; background:none;  }
+.textstyle11 { font-size:18pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#FFA925;  }
+#heading_3e8d9aab { vertical-align: top; position:relative; display: inline-block; background:none;  }
+.textstyle12 { text-align:center;display: block }
+.textstyle13 { font-size:60pt; font-family:Oswald; color:#FF8000;  }
+.textstyle14 { text-align:left;display: block }
+#text_fb36e63 { vertical-align: bottom; position:relative; display: inline-block; width:60%; background:none;  }
+.textstyle15 { text-align:justify; }
+.textstyle16 { font-size:14pt; font-family:'PT Sans Narrow'; color:#FFFFFF;  }
+.textstyle17 { font-size:14pt; font-family:Arial, Helvetica, sans-serif; color:#FFFFFF;  }
 .vcenterstyle1 { display: table; width: 100%; height: 100%; }
 .vcenterstyle2 { display: table-cell; vertical-align: middle; }
-.textstyle20 { font-size:12pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#FFFFFF;  }
+.textstyle18 { font-size:12pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#FFFFFF;  }
 #heading_24f5362d { vertical-align: bottom; position:relative; display: inline-block; background:none; font-size:26pt; font-family:'PT Sans Narrow'; color:#FFFFFF; text-align:center;  }
-#container_6a0088e0 { vertical-align: top; border-radius: 4px; position:relative; display: inline-block; width:100%; min-height:150px; background-color:#008080;  }
+#container_6a0088e0 { vertical-align: top; border-radius: 4px; position:relative; display: inline-block; width:100%; min-height:566px; background-color:#008080;  }
 #container_6a0088e0_padding { margin: 20px; display: block;  }
-#container_406604df { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:266px; max-width:1200px; background:none;  }
+.textstyle19 { font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#FFFF00;  }
+.textstyle20 { font-size:26pt; font-family:'PT Sans Narrow'; color:#FF8000;  }
+#container_406604df { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:266px; background:none;  }
 #container_406604df_padding { margin: 10px; display: block;  }
 #container_588c0ec4 { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:150px; background:none;  }
 #container_588c0ec4_padding { margin: 10px; display: block;  }
@@ -93,10 +94,12 @@ body { background-color:#FFFFFF; padding:0;  margin: 0; }
 .textstyle22 { font-size:14pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
 #slide_94f4ad3 { overflow:hidden; vertical-align: top; position:relative; display: inline-block; width:100%; height:0; padding-top:33%; background:none;  }
 .textstyle23 { font-size:18pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
-#gallery_27fdaa10 { overflow:hidden; vertical-align: top; border-radius: 5px; position:relative; display: inline-block; width:94%; min-height:270px; max-width:1200px;  }
+#container_3d782f09 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:279px; background:none;  }
+#container_3d782f09_padding { margin: 10px; display: block;  }
+#gallery_27fdaa10 { overflow:hidden; vertical-align: top; border-radius: 5px; position:relative; display: inline-block; width:94%; min-height:270px;  }
 #container_540f65a5 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background-color:#F1F1F1;  }
 #container_540f65a5_padding { margin: 10px; display: block;  }
-#container_23c309f5 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; max-width:1200px; background:none;  }
+#container_23c309f5 { vertical-align: top; position:relative; display: inline-block; width:90%; min-height:150px; background:none;  }
 #container_23c309f5_padding { margin: 10px; display: block;  }
 #container_7635e4ac { vertical-align: top; position:relative; display: inline-block; width:40%; min-height:346px; background-color:#FFFFFF; background-image: url(rc_images/price_akril.webp); background-position:top left; background-size:cover;  }
 #container_7635e4ac_padding { margin: 10px; display: block;  }
@@ -119,20 +122,15 @@ body { background-color:#FFFFFF; padding:0;  margin: 0; }
 #container_48b5813c_padding { margin: 10px; display: block;  }
 #text_459f1faa { box-sizing: border-box; vertical-align: bottom; border-radius: 3px; position:relative; display: inline-block; width:90%; background:none; border: 2px solid #FFFFFF;  }
 #text_9663379 { box-sizing: border-box; vertical-align: bottom; border-radius: 3px; position:relative; display: inline-block; width:90%; background:none; border: 2px solid #FFFFFF;  }
-#gallery_4e5f1f5c { overflow:hidden; box-sizing: border-box; vertical-align: bottom; border-radius: 5px; position:relative; display: inline-block; width:100%; max-width:1200px;  }
-#container_55a9f057 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
-#container_55a9f057_padding { margin: 10px; display: block;  }
-.textstyle29 { font-size:40pt; font-family:Arial, Helvetica, sans-serif; color:#222BF7;  }
-.textstyle30 { font-size:40pt; font-family:Arial, Helvetica, sans-serif; color:#29BB3C;  }
-.textstyle31 { font-size:40pt; font-family:Arial, Helvetica, sans-serif; color:#FF0000;  }
+#gallery_4e5f1f5c { overflow:hidden; box-sizing: border-box; vertical-align: bottom; border-radius: 5px; position:relative; display: inline-block; width:95%;  }
 #container_12dee79e { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background-color:#FFA925;  }
 #container_12dee79e_padding { margin: 20px; display: block;  }
-.textstyle32 { font-size:26pt; font-family:'PT Sans Narrow'; color:#800000; font-weight:bold;  }
-.textstyle33 { font-size:12pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#000000; font-weight:bold;  }
-.textstyle34 { font-size:12pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#000000;  }
+.textstyle29 { font-size:26pt; font-family:'PT Sans Narrow'; color:#800000; font-weight:bold;  }
+.textstyle30 { font-size:12pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#000000; font-weight:bold;  }
+.textstyle31 { font-size:12pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#000000;  }
 #container_79dff3b4 { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:150px; background:none;  }
 #container_79dff3b4_padding { margin: 10px; display: block;  }
-.textstyle35 { font-size:14pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#004080; font-weight:bold;  }
+.textstyle32 { font-size:14pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#004080; font-weight:bold;  }
 #container_2bc926a0 { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:150px; background:none;  }
 #container_2bc926a0_padding { margin: 10px; display: block;  }
 #container_15f9c727 { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:150px; background:none;  }
@@ -154,6 +152,11 @@ body { background-color:#FFFFFF; padding:0;  margin: 0; }
 		#container_588c0ec4 { width:100%;  }
 		#container_63fc54d8 { width:100%;  }
 		#container_42e1be39 { width:100%;  }
+}
+@media only screen and (max-width: 640px)
+{
+		#heading_3e8d9aab * span { font-size:42pt;  }
+		#text_fb36e63 { width:95%;  }
 }
 @media only screen and (max-width: 600px)
 {

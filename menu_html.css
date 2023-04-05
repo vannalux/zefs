@@ -48,9 +48,9 @@ body { background-color:#FFFFFF; padding:0;  margin: 0; }
 .textstyle8 { font-size:13pt; font-family:'PT Sans Narrow'; color:#000000;  white-space: nowrap; }
 .textstyle9 { font-size:16pt; font-family:'PT Sans Narrow'; color:#FFFFFF;  white-space: nowrap; }
 #placeh_450824da { vertical-align: bottom; position:relative; display: inline-block; width:100%;  }
-#container_2999867e { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; max-width:1200px; background:none;  }
+#container_2999867e { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
 .textstyle10 { font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
-#container_4473df6d { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:191px; max-width:1200px; background-color:#242342; background-image: url(rc_images/restaurant_dark_glass.jpg); background-position:top left; background-size:cover;  }
+#container_4473df6d { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:191px; background-color:#242342; background-image: url(rc_images/restaurant_dark_glass.jpg); background-position:top left; background-size:cover;  }
 #container_4473df6d_padding { margin: 10px; display: block;  }
 #container_4867e833 { vertical-align: top; position:relative; display: inline-block; width:43%; min-height:113px; min-width:300px; background:none;  }
 #container_4867e833_padding { margin: 10px; display: block;  }
@@ -62,7 +62,7 @@ body { background-color:#FFFFFF; padding:0;  margin: 0; }
 .textstyle16 { font-size:26pt; font-family:Arial, Helvetica, sans-serif; color:#FFFFFF; font-weight:bold;  }
 .textstyle17 { font-size:14pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#FFFFFF; line-height: 1.5;  }
 .textstyle18 { font-size:14pt; font-family:Arial, Helvetica, sans-serif; color:#FFFFFF; line-height: 1.5;  }
-#container_9e2d23b { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:508px; max-width:1200px; background-color:#FFFFFF;  }
+#container_9e2d23b { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:508px; background-color:#FFFFFF;  }
 #container_9e2d23b_padding { margin: 20px; display: block;  }
 #container_261211a2 { vertical-align: top; position:relative; display: inline-block; width:88%; min-height:422px; background:none;  }
 #container_261211a2_padding { margin: 10px; display: block;  }
