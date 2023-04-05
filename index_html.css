@@ -6,10 +6,11 @@ a:hover { color:#B2B3B4; }
 #button_27858737 { vertical-align: bottom; border-radius: 9px; position:relative; display: inline-block; width:150px; height:40px; background-color:#FFA925;  }
 #button_27858737:hover { background-color:#F4D274;  }
 #button_27858737:hover span { color:#FFFFFF; }
-#gallery_27fdaa10 div.galleryimgcontainer { box-sizing: border-box; vertical-align: middle; display: inline-block; width: 33%; height: auto; padding: 10px; font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000; text-align:center;  } 
-#gallery_27fdaa10 div.galleryimgcontainer img {  width: 100%;  height: auto; border-radius: 5px;  } 
+#gallery_27fdaa10 div.galleryimgcontainer { box-sizing: border-box; vertical-align: middle; display: inline-block; width: 33%; height: auto; padding: 10px;  } 
+#gallery_27fdaa10 div.galleryimgcontainer img {  width: 100%;  height: auto; background-color:#000000; border: 3px solid #FFFF80; border: 3px solid #FFFF80; border-radius: 5px;  } 
 @media only screen and (max-width:800px) { #gallery_27fdaa10 div.galleryimgcontainer { width: 50%; } } 
 @media only screen and (max-width:480px) { #gallery_27fdaa10 div.galleryimgcontainer { width: 100%; } } 
+#gallery_27fdaa10 img:hover{ border: 3px solid #D72316 !important; } 
 #gallery_4e5f1f5c div.galleryimgcontainer { box-sizing: border-box; vertical-align: middle; display: inline-block; width: 33%; height: auto; padding: 10px;  } 
 #gallery_4e5f1f5c div.galleryimgcontainer img {  width: 100%;  height: auto; background-color:#FFFFFF; border: 3px solid #A0A0A0; border: 3px solid #A0A0A0; border-radius: 5px;  } 
 @media only screen and (max-width:800px) { #gallery_4e5f1f5c div.galleryimgcontainer { width: 50%; } } 
@@ -92,11 +93,11 @@ body { background-color:#FFFFFF; padding:0;  margin: 0; }
 #container_42e1be39_padding { margin: 10px; display: block;  }
 #img_14e88ee0 { box-sizing: border-box; vertical-align: bottom; border-radius: 5px; position:relative; display: inline-block; width:100%; background:none; border: 3px solid #D5E003; height:auto;  }
 .textstyle22 { font-size:14pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
-#slide_94f4ad3 { overflow:hidden; vertical-align: top; position:relative; display: inline-block; width:100%; height:0; padding-top:33%; background:none;  }
+#slide_94f4ad3 { overflow:hidden; box-sizing: border-box; vertical-align: top; position:relative; display: inline-block; width:100%; height:500px; background:none; border: 2px solid #FF8000;  }
 .textstyle23 { font-size:18pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
 #container_3d782f09 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:279px; background:none;  }
 #container_3d782f09_padding { margin: 10px; display: block;  }
-#gallery_27fdaa10 { overflow:hidden; vertical-align: top; border-radius: 5px; position:relative; display: inline-block; width:94%; min-height:270px;  }
+#gallery_27fdaa10 { overflow:hidden; box-sizing: border-box; vertical-align: top; border-radius: 5px; position:relative; display: inline-block; width:94%; min-height:270px;  }
 #container_540f65a5 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background-color:#F1F1F1;  }
 #container_540f65a5_padding { margin: 10px; display: block;  }
 #container_23c309f5 { vertical-align: top; position:relative; display: inline-block; width:90%; min-height:150px; background:none;  }
