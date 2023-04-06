@@ -1,0 +1,64 @@
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://zefs.ml" resolutions="1x" timestamp="1680774555318">
+  <folder name="css">
+    <file name="site_global.css" crc="314571582"/>
+    <file name="master_______-a.css" crc="15677762" ref="index"/>
+    <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
+    <file name="index.css" crc="3898820704" ref="index"/>
+    <file name="nomq_index.css" crc="3922465286" ref="index"/>
+  </folder>
+  <folder name="fonts">
+    <file name="ptsans-narrow.woff" crc="4137024931"/>
+    <file name="ptsansnarrow-regular.eot" crc="281157933"/>
+    <file name="ptsans-narrow.svg" crc="431651533"/>
+    <file name="oswald.woff" crc="482114974"/>
+    <file name="oswald.eot" crc="4163656752"/>
+    <file name="oswald.svg" crc="242041924"/>
+    <file name="fa-regular-400.woff" crc="412421562"/>
+    <file name="fa-regular-400.eot" crc="3881530089"/>
+    <file name="fa-regular-400.svg" crc="4210298987"/>
+    <file name="oswald-bold1.woff" crc="210989999"/>
+    <file name="oswald-bold1.eot" crc="3817401821"/>
+    <file name="oswald-bold1.svg" crc="143085064"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="340535759" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="4286661555" ref="index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="39568856" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
+    <file name="require.js" crc="7928878" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="pexels-horizon-content-3738736.jpg" crc="4208113051" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pexels-pixabay-262978.jpg" crc="302444373" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pexels-roman-odintsov-5836429.jpg" crc="3806276183" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bg.jpg" crc="4251899456" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pexels-roman-odintsov-5836429327x485.jpg" crc="3900758985" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pexels-horizon-content-3738736-u126-fr.jpg" crc="257637578" ref="index"/>
+    <file name="pexels-roman-odintsov-5836429280x415.jpg" crc="4195360301" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pexels-pixabay-262978280x177.jpg" crc="3832872333" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="favicon.ico" crc="4049465293" ref="index"/>
+  </folder>
+  <file name="index.html" crc="352862134" seo="true" mt="1680774515891" redirect="true"/>
+</manifest>
