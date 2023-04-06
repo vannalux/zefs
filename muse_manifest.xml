@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://zefs.ml" resolutions="1x" timestamp="1680781994216">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://zefs.ml" resolutions="1x" timestamp="1680782140255">
   <folder name="css">
     <file name="site_global.css" crc="314571582"/>
     <file name="master_______-a.css" crc="4157613767" ref="index"/>
@@ -107,5 +107,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4272223074" seo="true" mt="1680781923298" redirect="true"/>
+  <file name="index.html" crc="4042256129" seo="true" mt="1680782110989" redirect="true"/>
 </manifest>
