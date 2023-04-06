@@ -20,5 +20,8 @@
     <image:image>
       <image:loc>https://zefs.ml/images/pexels-pixabay-262978280x177.jpg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://zefs.ml/images/divider_grey_s.png</image:loc>
+    </image:image>
   </url>
 </urlset>
