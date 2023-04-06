@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://zefs.ml" resolutions="1x" timestamp="1680787022257">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://zefs.ml" resolutions="1x" timestamp="1680809798708">
   <folder name="css">
     <file name="site_global.css" crc="314571582"/>
-    <file name="master_______-a.css" crc="3923898417" ref="index"/>
+    <file name="master_______-a.css" crc="230818653" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="3811596166" ref="index"/>
-    <file name="nomq_index.css" crc="222347733" ref="index"/>
+    <file name="index.css" crc="304312006" ref="index"/>
+    <file name="nomq_index.css" crc="3977444877" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="ptsans-narrow.woff" crc="4137024931"/>
@@ -106,6 +106,18 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
+    <file name="bg_02.jpg" crc="3855943369" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pexels-maria-orlova-4946408.jpg" crc="4119439825" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bg_02-u1067-fr.jpg" crc="368761145" ref="index"/>
+    <file name="pexels-maria-orlova-4946408201x302.jpg" crc="3785523302" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bg_02-u1067-fr2.jpg" crc="171464265" ref="index"/>
   </folder>
-  <file name="index.html" crc="3778577286" seo="true" mt="1680787000803" redirect="true"/>
+  <file name="index.html" crc="302037824" seo="true" mt="1680809734467" redirect="true"/>
 </manifest>

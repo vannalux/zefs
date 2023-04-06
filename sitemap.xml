@@ -23,5 +23,11 @@
     <image:image>
       <image:loc>https://zefs.ml/images/divider_grey_s.png</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://zefs.ml/images/pexels-maria-orlova-4946408.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zefs.ml/images/pexels-maria-orlova-4946408201x302.jpg</image:loc>
+    </image:image>
   </url>
 </urlset>
