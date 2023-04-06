@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://zefs.ml" resolutions="1x" timestamp="1680782140255">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://zefs.ml" resolutions="1x" timestamp="1680782543926">
   <folder name="css">
     <file name="site_global.css" crc="314571582"/>
-    <file name="master_______-a.css" crc="4157613767" ref="index"/>
+    <file name="master_______-a.css" crc="3923898417" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="62283820" ref="index"/>
-    <file name="nomq_index.css" crc="38237430" ref="index"/>
+    <file name="index.css" crc="4090765249" ref="index"/>
+    <file name="nomq_index.css" crc="222347733" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="ptsans-narrow.woff" crc="4137024931"/>
@@ -107,5 +107,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4042256129" seo="true" mt="1680782110989" redirect="true"/>
+  <file name="index.html" crc="311827540" seo="true" mt="1680782525097" redirect="true"/>
 </manifest>
