@@ -230,6 +230,12 @@ Muse.Utils.fullPage('#page');/* 100% height page */
 $('#bp_infinity').one('muse_this_bp_activate', function(){
 $('#u126').registerBackgroundPositionScrollEffect([{"speed":[0,0.7],"in":[-Infinity,100]},{"speed":[0,0.7],"in":[100,Infinity]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
+$('#bp_1250').one('muse_this_bp_activate', function(){
+$('#u126').registerBackgroundPositionScrollEffect([{"speed":[0,0.7],"in":[-Infinity,130]},{"speed":[0,0.7],"in":[130,Infinity]}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
+$('#bp_768').one('muse_this_bp_activate', function(){
+$('#u126').registerBackgroundPositionScrollEffect([{"speed":[0,0.7],"in":[-Infinity,131]},{"speed":[0,0.7],"in":[131,Infinity]}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
