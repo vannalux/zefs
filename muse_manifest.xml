@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://zefs.ml" resolutions="1x" timestamp="1680774555318">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://zefs.ml" resolutions="1x" timestamp="1680774812111">
   <folder name="css">
     <file name="site_global.css" crc="314571582"/>
     <file name="master_______-a.css" crc="15677762" ref="index"/>
@@ -58,7 +58,7 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="favicon.ico" crc="4049465293" ref="index"/>
+    <file name="favicon.ico" crc="145653974" ref="index"/>
   </folder>
-  <file name="index.html" crc="352862134" seo="true" mt="1680774515891" redirect="true"/>
+  <file name="index.html" crc="4191232296" seo="true" mt="1680774776050" redirect="true"/>
 </manifest>
