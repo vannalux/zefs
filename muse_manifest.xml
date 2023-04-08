@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://zefs.ml" resolutions="1x" timestamp="1680990531328">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://zefs.ml" resolutions="1x" timestamp="1680990676163">
   <folder name="css">
     <file name="site_global.css" crc="314571582"/>
     <file name="master_______-a.css" crc="377443455" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="3839359209" ref="index"/>
-    <file name="nomq_index.css" crc="323648321" ref="index"/>
+    <file name="index.css" crc="453643710" ref="index"/>
+    <file name="nomq_index.css" crc="529786365" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="ptsans-narrow.woff" crc="4137024931"/>
@@ -42,9 +42,7 @@
     <file name="pexels-roman-odintsov-5836429.jpg" crc="3806276183" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="bg.jpg" crc="4251899456" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+    <file name="bg.jpg" crc="165514016" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="pexels-roman-odintsov-5836429327x485.jpg" crc="3900758985" seo="true" ref="index">
@@ -118,6 +116,8 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="bg_02-u1067-fr2.jpg" crc="4159521952" ref="index"/>
+    <file name="bg-u193-fr.jpg" crc="3812858114" ref="index"/>
+    <file name="bg-u193-fr2.jpg" crc="4056266197" ref="index"/>
   </folder>
-  <file name="index.html" crc="4037590837" seo="true" mt="1680990455630" redirect="true"/>
+  <file name="index.html" crc="3881114809" seo="true" mt="1680990643229" redirect="true"/>
 </manifest>
