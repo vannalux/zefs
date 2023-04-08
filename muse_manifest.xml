@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://zefs.ml" resolutions="1x" timestamp="1680810052252">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://zefs.ml" resolutions="1x" timestamp="1680990531328">
   <folder name="css">
     <file name="site_global.css" crc="314571582"/>
-    <file name="master_______-a.css" crc="230818653" ref="index"/>
+    <file name="master_______-a.css" crc="377443455" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="13608067" ref="index"/>
-    <file name="nomq_index.css" crc="227275363" ref="index"/>
+    <file name="index.css" crc="3839359209" ref="index"/>
+    <file name="nomq_index.css" crc="323648321" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="ptsans-narrow.woff" crc="4137024931"/>
@@ -106,18 +106,18 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="bg_02.jpg" crc="3855943369" ref="index">
+    <file name="bg_02.jpg" crc="374509113" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="pexels-maria-orlova-4946408.jpg" crc="4119439825" seo="true" ref="index">
+    <file name="pexels-maria-orlova-4946408.jpg" crc="4229807769" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="bg_02-u1067-fr.jpg" crc="368761145" ref="index"/>
-    <file name="pexels-maria-orlova-4946408201x302.jpg" crc="3785523302" seo="true" ref="index">
+    <file name="bg_02-u1067-fr.jpg" crc="4071240731" ref="index"/>
+    <file name="pexels-maria-orlova-4946408201x302.jpg" crc="4029290134" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="bg_02-u1067-fr2.jpg" crc="171464265" ref="index"/>
+    <file name="bg_02-u1067-fr2.jpg" crc="4159521952" ref="index"/>
   </folder>
-  <file name="index.html" crc="253002929" seo="true" mt="1680809937946" redirect="true"/>
+  <file name="index.html" crc="4037590837" seo="true" mt="1680990455630" redirect="true"/>
 </manifest>
