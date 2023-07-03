@@ -43,37 +43,6 @@ a {
     transform-origin: left top;
     background-repeat: no-repeat;
 }
-@media (min-width: 769px) { 
-body,
-div,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-nav,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-code,
-form,
-fieldset,
-legend,
-input,
-button,
-textarea,
-p,
-blockquote,
-th,
-td,
-a {
-} 
-}
 
 button.submit-btn {
     -moz-box-sizing: content-box;
@@ -500,12 +469,10 @@ img.block {
     margin-bottom: 0px;
 }
 
-@media (min-width:769px) {
-    .browser_width > * {
-        position: absolute;
-        left: 0px;
-        right: 0px;
-    }
+.browser_width > * {
+    position: absolute;
+    left: 0px;
+    right: 0px;
 }
 
 .grpelem,
